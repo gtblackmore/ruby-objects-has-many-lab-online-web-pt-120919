@@ -13,8 +13,10 @@ class Author
   
   def add_post_by_title(title)
     post.new = title
-    
-    
-
-
+    add_post(title)
+  end
+  
+  def post_count
+    @posts.count
+  end
 end
