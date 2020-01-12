@@ -5,10 +5,6 @@ class Song
   
   def initialize(name)
     @name = name
-    save
-  end
-  
-  def save
     @@all << self
   end
   
@@ -19,9 +15,7 @@ class Song
       nil
     end
   end
-  
-  
-  
+
   def self.all
     @@all
   end
