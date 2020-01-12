@@ -5,7 +5,11 @@ class Post
   
   def initalize(title)
     @@all << self
-    
+  end
+  
+  def self.all
+    @@all
+  end
     
     
 
