@@ -4,7 +4,8 @@ class Post
   @@all = []
   
   def initalize(title)
-    @@all << title
+    @@all << self
+    
     
     
 
