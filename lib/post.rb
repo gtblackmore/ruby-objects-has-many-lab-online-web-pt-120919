@@ -4,8 +4,8 @@ class Post
 
   attr_accessor :author,:title
 
-  def initialize(message)
-    @title = message
+  def initialize(title)
+    @title = title
     @@all << self
   end
 
